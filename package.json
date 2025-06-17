@@ -1,0 +1,34 @@
+{
+  "name": "mern-news-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "concurrently \"nodemon server.js\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mern-news-scraper"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/mern-news-scraper/issues"
+  },
+  "homepage": "https://github.com/yourusername/mern-news-scraper/issues",
+  "dependencies": {
+    "16": "^0.0.2",
+    "axios": "^0.19.0",
+    "cheerio": "^1.1.0",
+    "concurrently": "^4.1.1",
+    "express": "^4.21.2",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "proxy": "http://localhost:3001"
+}
